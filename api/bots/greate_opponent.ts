@@ -3,7 +3,7 @@ import { PlayingCardSuite, PlayingCard } from "courtpiece-web/common/types";
 import { getSuiteOfCard, getRankOfCard } from "courtpiece-web/common/utils";
 import { TBot, TPlayCardPayload, TTrumpSuitePayload } from "../types";
 
-export default class GrateOpponentBot implements TBot {
+export default class GreateOpponentBot implements TBot {
     identifier = 'grate-opponent-bot'
 
     chooseTrumpSuite(payload: TTrumpSuitePayload): PlayingCardSuite {
@@ -23,7 +23,7 @@ export default class GrateOpponentBot implements TBot {
     }
 
     playCard(payload: TPlayCardPayload): PlayingCard {
-        
+         
         return 0;
     }
 
