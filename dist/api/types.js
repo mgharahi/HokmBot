@@ -13,3 +13,4 @@ var CardTags;
     CardTags[CardTags["CanPlay"] = 8] = "CanPlay";
     CardTags[CardTags["FloorTrump"] = 9] = "FloorTrump";
 })(CardTags = exports.CardTags || (exports.CardTags = {}));
+//# sourceMappingURL=types.js.map

@@ -12,3 +12,4 @@ class RandomBot {
     }
 }
 exports.default = RandomBot;
+//# sourceMappingURL=random.js.map

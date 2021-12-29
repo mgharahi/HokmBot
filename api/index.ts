@@ -5,7 +5,7 @@ import cors from "cors";
 import RandomBot from "./bots/random";
 import HighCardBot from "./bots/highcard";
 import { TPlayCardPayload, TTrumpSuitePayload } from "./types";
-import GrateOpponentBot from "./bots/grate_opponent";
+import GrateOpponentBot from "./bots/greate_opponent";
 
 dotenv.config();
 
@@ -32,7 +32,7 @@ app.use(
   
   express.Router()
     .get('/ping', (req, res) => {
-      res.json('{"p":"1"}');
+      res.json('Pong2');
     })
 );
 
