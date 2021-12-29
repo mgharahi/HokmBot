@@ -164,8 +164,8 @@ export default class GreateOpponentBot implements TBot {
         
         
         for (let i: PlayingCard=0;i<52;i++)
-        {
-            let x:CardDetails={ NewGlobalRank : 0, Rank:0, Suit:0, Tags:[],Key:0};
+        { 
+            let x:CardDetails={ NewGlobalRank : 0, Rank:0, Suit:0, Tags:[],Key:i};
             vector.push(x);
 
             vector[i].Suit = getSuiteOfCard(i as PlayingCard);
