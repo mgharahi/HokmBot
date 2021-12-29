@@ -32,7 +32,7 @@ app.use(
   
   express.Router()
     .get('/ping', (req, res) => {
-      res.json('Pong2');
+      res.json('Pong4');
     })
 );
 

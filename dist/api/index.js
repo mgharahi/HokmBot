@@ -26,7 +26,7 @@ ALL_BOTS.forEach(bot => {
 });
 app.use(express_1.default.Router()
     .get('/ping', (req, res) => {
-    res.json('Pong2');
+    res.json('Pong4');
 }));
 // start server
 app.listen(process.env.PORT || 3000, function () {

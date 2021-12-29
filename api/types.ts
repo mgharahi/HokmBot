@@ -36,14 +36,14 @@ export type TTrick = {
     winner: PlayerIndex;
 };
 export enum CardTags {
-    Played = 1,
-    MyOwn = 2,
-    Trump = 3,
-    Floor = 4,
-    Competitor = 5,
+    // Played = 1,
+    // MyOwn = 2,
+    // Trump = 3,
+    // Floor = 4,
+    // Competitor = 5,
     MyFriend = 6,
-    StrongestOnTheFloor = 7,
-    CanPlay = 8,
+    // StrongestOnTheFloor = 7,
+    // CanPlay = 8,
     FloorTrump = 9
 }
 
