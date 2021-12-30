@@ -96,8 +96,6 @@ export default class GreateOpponentBot implements TBot {
  
     GetMyStrongConsideringPlayedCards(vector: CardDetails[], data: TPlayCardPayload):number|null
     {
-        console.log(vector)
-
         let result:number|null= null;
 
         let s;
